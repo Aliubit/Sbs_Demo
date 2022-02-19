@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MeteoriteDataModel" representedClassName=".MeteoriteDataModel" syncable="YES">
+        <attribute name="computedRegionCbhkFwbd" optional="YES" attributeType="String"/>
+        <attribute name="computedRegionNnqa25F4" optional="YES" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fall" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="mass" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="nametype" attributeType="String"/>
+        <attribute name="recclass" attributeType="String"/>
+        <attribute name="reclat" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reclong" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="ReverseGeocode" representedClassName=".ReverseGeocode" syncable="YES">
+        <attribute name="address" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MeteoriteDataModel" positionX="-63" positionY="-18" width="128" height="194"/>
+        <element name="ReverseGeocode" positionX="-63" positionY="63" width="128" height="59"/>
+    </elements>
+</model>

@@ -1,0 +1,6 @@
+framework module Pods_Sbs_Demo_Sbs_DemoUITests {
+  umbrella header "Pods-Sbs_Demo-Sbs_DemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
